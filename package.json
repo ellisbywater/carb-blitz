@@ -29,16 +29,19 @@
     ]
   },
   "dependencies": {
-    "prisma": "~2.19",
     "@prisma/client": "~2.19",
     "blitz": "0.33.1",
+    "bootstrap": "4.6.0",
+    "final-form": "4.20.2",
+    "prisma": "~2.19",
     "react": "0.0.0-experimental-6a589ad71",
+    "react-bootstrap": "1.5.2",
     "react-dom": "0.0.0-experimental-6a589ad71",
     "react-error-boundary": "3.1.1",
+    "react-final-form": "6.5.3",
+    "react-icons": "4.2.0",
     "typescript": "~4.1",
-    "zod": "1.11.13",
-    "final-form": "4.20.2",
-    "react-final-form": "6.5.3"
+    "zod": "1.11.13"
   },
   "devDependencies": {
     "@types/react": "17.0.3",
