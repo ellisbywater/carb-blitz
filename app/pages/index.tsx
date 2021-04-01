@@ -1,6 +1,7 @@
 import { Suspense } from "react"
 import { Link, BlitzPage, useMutation } from "blitz"
 import Layout from "app/core/layouts/Layout"
+import { PricingCard } from "app/carb-ui/PricingCard"
 import { useCurrentUser } from "app/core/hooks/useCurrentUser"
 import logout from "app/auth/mutations/logout"
 
@@ -34,6 +35,7 @@ const UserInfo = () => {
   } else {
     return (
       <>
+        <PricingCard />
         <Link href="/signup">
           <a className="button small">
             <strong>Sign Up</strong>

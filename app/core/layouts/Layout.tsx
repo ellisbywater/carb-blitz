@@ -1,5 +1,8 @@
 import { ReactNode } from "react"
 import { Head } from "blitz"
+import { Container } from "react-bootstrap"
+import { NavbarBase } from "app/carb-ui/NavbarBase"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 type LayoutProps = {
   title?: string
@@ -13,8 +16,8 @@ const Layout = ({ title, children }: LayoutProps) => {
         <title>{title || "carbs"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      {children}
+      <NavbarBase />
+      <Container>{children}</Container>
     </>
   )
 }
